@@ -1,10 +1,10 @@
 const path = require('path')
 const Pool = require('pg').Pool
 const pool = new Pool({
-  user: '',
+  user: 'mackenziedixon',
   host: 'localhost',
-  database: '',
-  password: '',
+  database: 'api',
+  password: 'password',
   port: 5432,
 })
 
